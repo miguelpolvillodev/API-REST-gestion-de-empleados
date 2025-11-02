@@ -21,7 +21,13 @@
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Email</th>
+                <th>Teléfono</th>
+                <th>Sexo</th>
                 <th>Salario</th>
+                <th>Fecha Contratación</th>
+                <th>Horario</th>
+                <th>Horas Contratadas</th>
+                
             </tr>
         </thead>
         <tbody>
@@ -30,7 +36,12 @@
                 <td th:text="${employee.nombre}"></td>
                 <td th:text="${employee.apellido}"></td>
                 <td th:text="${employee.email}"></td>
+                <td th:text="${employee.telefono}"></td>
+                <td th:text="${employee.sexo}"></td>
                 <td th:text="${employee.salario}"></td>
+                <td th:text="${employee.fechaContratacion}"></td>
+                <td th:text="${employee.horario}"></td>
+                <td th:text="${employee.horasContratadas}"></td>
             </tr>
         </tbody>
     </table>
